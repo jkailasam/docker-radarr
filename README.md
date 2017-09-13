@@ -1,4 +1,4 @@
-[Radarr][appurl] - A fork of Sonarr to work with movies à la Couchpotato. 
+# Radarr - A fork of Sonarr to work with movies à la Couchpotato. 
 
 [![radarr](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png)][appurl]
 
@@ -14,7 +14,7 @@ docker create \
 	-e TZ=<timezone> \
 	-e PGID=<gid> -e PUID=<uid>  \
 	-p 7878:7878 \
-  linuxserver/radarr
+  jeeva420/radarr
 ```
 
 ## Parameters
