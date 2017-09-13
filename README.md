@@ -1,20 +1,3 @@
-[linuxserverurl]: https://linuxserver.io
-[forumurl]: https://forum.linuxserver.io
-[ircurl]: https://www.linuxserver.io/irc/
-[podcasturl]: https://www.linuxserver.io/podcast/
-[appurl]: https://github.com/Radarr/Radarr
-[hub]: https://hub.docker.com/r/linuxserver/radarr/
-
-[![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
-
-The [LinuxServer.io][linuxserverurl] team brings you another container release featuring easy user mapping and community support. Find us for support at:
-* [forum.linuxserver.io][forumurl]
-* [IRC][ircurl] on freenode at `#linuxserver.io`
-* [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
-
-# linuxserver/radarr
-[![](https://images.microbadger.com/badges/version/lsiocommunity/radarr.svg)](https://microbadger.com/images/lsiocommunity/radarr "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsiocommunity/radarr.svg)](http://microbadger.com/images/lsiocommunity/radarr "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsiocommunity/radarr.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsiocommunity/radarr.svg)][hub][![Build Status](https://ci.linuxserver.io/buildStatus/icon?job=Docker-Builders/lsiocommunity/x86-64-radarr)](https://ci.linuxserver.io/job/Docker-Builders/job/lsiocommunity/job/x86-64-radarr/)
-
 [Radarr][appurl] - A fork of Sonarr to work with movies à la Couchpotato. 
 
 [![radarr](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png)][appurl]
@@ -83,10 +66,4 @@ Access the webui at `<your-ip>:7878`, for more information check out [Radarr][ap
 
 * image version number
 
-`docker inspect -f '{{ index .Config.Labels "build_version" }}' linuxserver/radarr`
-
-## Versions
-
-+ **17.04.17:** Switch to using inhouse mono baseimage, adds python also.
-+ **13.04.17:** Switch to official mono repository.
-+ **10.01.17:** Initial Release.
+`docker inspect -f '{{ index .Config.Labels "build_version" }}' jeeva420/radarr`
